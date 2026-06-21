@@ -22,7 +22,7 @@ To use the Military Tycoon Trade Scanner follow these steps:
 
 ```lua
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sjndn71-netizen/Item-Searcher/refs/heads//Item%20Searcher"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sjndn71-netizen/Item-Searcher/refs/heads/main/Item%20Searcher"))()
 
 ```
 
