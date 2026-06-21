@@ -1,62 +1,79 @@
 <div align="center">
 
-# ðŸ” Military Tycoon Trade Scanner
+# Military Tycoon Trade Scanner
 
-**Automatically hops servers searching for a specific vehicle at your price â€” hands free.**
+**This tool helps you find a vehicle at a price you like automatically.**
 
 ![Private](https://img.shields.io/badge/status-private-red?style=for-the-badge)
+
 ![Roblox](https://img.shields.io/badge/game-Military%20Tycoon-blue?style=for-the-badge)
+
 ![Lua](https://img.shields.io/badge/language-Lua-purple?style=for-the-badge)
 
 </div>
 
----
+## How to Get Started
 
-## âš¡ Loadstring
+To use the Military Tycoon Trade Scanner follow these steps:
+
+*   First you need to run a script in your executor.
+
+*   The script is:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sjndn71-netizen/Item-Searcher/refs/heads/main/Item%20Searcher"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sjndn71-netizen/Item-Searcher/refs/heads//Item%20Searcher"))()
+
 ```
 
-> **Put this in your executor's auto-execute folder** so it keeps running after each server hop.
+*   Put this script in your executors auto-execute folder. This way it will keep running when you switch servers.
 
----
+## What the Military Tycoon Trade Scanner Does
 
-## ðŸ› ï¸ What It Does
+*   The Military Tycoon Trade Scanner looks for a vehicle you want in the trade shop of every server.
 
-- Scans the trade shop in every server for a vehicle you specify
-- Hops to a new public server automatically if it's not found
-- Keeps going until it finds a match â€” no babysitting required
-- Walks your character directly to the seller when found
-- Remembers your search across server hops so you never have to retype it
+*   If it doesn't find the vehicle it automatically goes to a public server.
 
----
+*   It keeps looking until it finds a match so you don't have to stay and watch.
 
-## ðŸŽ® How To Use
+*   When it finds the vehicle it walks your character to the seller.
 
-| Step | Action |
-|------|--------|
-| 1 | Run the loadstring above in your executor |
-| 2 | First launch shows a warning â€” read it, type `I UNDERSTAND` to unlock |
-| 3 | Enter the **vehicle name** (partial names work, e.g. `sky` finds `Skyhammer`) |
-| 4 | Optionally set a **min and max price** in diamonds |
-| 5 | Press **Auto Loop** and let it run |
-| 6 | Press **Stop** at any time to cancel â€” stops walking immediately |
+*   It remembers what you're searching for even when it switches servers.
 
----
+## How to Use the Military Tycoon Trade Scanner
 
-## ðŸ’Ž Price Range
+Here's how to use it:
 
-You can filter by a price window instead of an exact number.
+| Step | What to Do
 
-- Set **Min** to `40000` and **Max** to `42000` â†’ matches anything priced 40kâ€“42k
-- Leave both blank â†’ matches any price
-- Supports shorthand: `40k` = `40000`
+|------|------------|
 
----
+| 1    | Run the script in your executor. |
 
-## ðŸ”’ Notes
+2    | Read the warning and type `I UNDERSTAND` to start using it. |
 
-- **Private** â€” not for public release
-- Requires an executor that supports `writefile` / `readfile` for state persistence
-- Built with [Rayfield UI](https://github.com/SiriusSoftwareLtd/Rayfield)
+3    | Enter the name of the vehicle you want. You can use part of the name.
+
+| 4    | You can also set a minimum and maximum price in diamonds. |
+
+5    | Press **Auto Loop** to start the search. |
+
+| 6    | Press **Stop** to cancel the search.
+
+## Setting a Price Range
+
+*   You can set a price range instead of a specific price.
+
+*   For example set **Min** to `40000` and **Max** to `42000` to find vehicles priced between 40k and 42k diamonds.
+
+*   If you leave both blank it will find vehicles at any price.
+
+*   You can use shorthand, like `40k` for `40000`.
+
+## Notes
+
+*   This tool is **Private** not, for use.
+
+*   It needs an executor that supports `writefile` and `readfile` to work
+
+*   It was built with [Rayfield UI](https://github.com/SiriusSoftwareLtd/Rayfield).
